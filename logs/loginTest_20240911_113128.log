@@ -1,0 +1,24 @@
+Sep 11, 2024 11:31:32 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 11, 2024 11:31:32 AM utils.BaseUtils logStep
+INFO: ASSERTION: Username field is Enabled -- assertTrue(true)
+Sep 11, 2024 11:31:33 AM utils.BaseUtils logStep
+INFO: Enter Password
+Sep 11, 2024 11:31:33 AM utils.BaseUtils logStep
+INFO: ASSERTION: Password field is Enabled -- assertTrue(true)
+Sep 11, 2024 11:31:33 AM utils.BaseUtils logStep
+INFO: Click on LogIn Button
+Sep 11, 2024 11:31:33 AM utils.BaseUtils logStep
+INFO: ASSERTION: Login_Button is Enabled -- assertTrue(true)
+Sep 11, 2024 11:32:26 AM utils.BaseUtils fail
+INFO: **** loginTest has FAILED ****
+Sep 11, 2024 11:32:26 AM utils.BaseUtils logException
+SEVERE: Exception in waitForUi: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d28d65283be6992ef18a0c271edba39, findElements {using=class name, value=SimpleLoader}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51832/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d28d65283be6992ef18a0c271edba39

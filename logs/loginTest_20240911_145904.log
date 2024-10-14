@@ -1,0 +1,82 @@
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception in isElementEnabled: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Enter Username']"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20e52eb6ff40ceb0e971ce26e77c455d, findElement {using=xpath, value=//*[@placeholder='Enter Username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e52eb6ff40ceb0e971ce26e77c455d
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logStep
+INFO: ASSERTION: Username field is enabled -- assertTrue(false)
+Sep 11, 2024 2:59:07 PM utils.BaseUtils fail
+INFO: Username field is not enablled
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception in waitForVisible: class jdk.proxy2.$Proxy39 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy39 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception while sending text to the elementno such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Enter Username']"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20e52eb6ff40ceb0e971ce26e77c455d, findElement {using=xpath, value=//*[@placeholder='Enter Username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e52eb6ff40ceb0e971ce26e77c455d
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logStep
+INFO: Enter password
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception in isElementEnabled: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Enter Password']"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20e52eb6ff40ceb0e971ce26e77c455d, findElement {using=xpath, value=//*[@placeholder='Enter Password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e52eb6ff40ceb0e971ce26e77c455d
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logStep
+INFO: ASSERTION: password field is enabled -- assertTrue(false)
+Sep 11, 2024 2:59:07 PM utils.BaseUtils fail
+INFO: password field is not enablled
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception in waitForVisible: class jdk.proxy2.$Proxy39 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy39 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception while sending text to the elementno such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Enter Username']"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20e52eb6ff40ceb0e971ce26e77c455d, findElement {using=xpath, value=//*[@placeholder='Enter Username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e52eb6ff40ceb0e971ce26e77c455d
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logStep
+INFO: Click on the Login Button
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception in isElementEnabled: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[text()='Login'])[4]"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20e52eb6ff40ceb0e971ce26e77c455d, findElement {using=xpath, value=(//*[text()='Login'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e52eb6ff40ceb0e971ce26e77c455d
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logStep
+INFO: ASSERTION: Login Button is enabled -- assertTrue(false)
+Sep 11, 2024 2:59:07 PM utils.BaseUtils fail
+INFO: Login Button is not enablled
+Sep 11, 2024 2:59:07 PM utils.BaseUtils logException
+SEVERE: Exception while clicking on the elementno such element: Unable to locate element: {"method":"xpath","selector":"(//*[text()='Login'])[4]"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20e52eb6ff40ceb0e971ce26e77c455d, findElement {using=xpath, value=(//*[text()='Login'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49804/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e52eb6ff40ceb0e971ce26e77c455d

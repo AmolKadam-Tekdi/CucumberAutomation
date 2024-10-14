@@ -1,0 +1,8 @@
+Jul 31, 2024 11:17:32 AM utils.BaseUtils logStep
+INFO: Enter Username
+Jul 31, 2024 11:17:34 AM utils.BaseUtils logStep
+INFO: Enter Password
+Jul 31, 2024 11:17:34 AM utils.BaseUtils logStep
+INFO: Click on LogIn Button
+Jul 31, 2024 11:17:46 AM utils.BaseUtils fail
+INFO: **** loginTest has FAILED ****

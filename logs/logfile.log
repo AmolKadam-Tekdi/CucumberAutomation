@@ -1,0 +1,54 @@
+Sep 11, 2024 4:12:14 PM utils.BaseUtils logException
+SEVERE: Exception in waitForVisible: Input must be set
+Sep 11, 2024 4:12:14 PM utils.BaseUtils logException
+SEVERE: Exception while sending text to the elementCannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "element" is null
+Sep 11, 2024 4:12:14 PM utils.BaseUtils logException
+SEVERE: Exception while sending text to the elementCannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "element" is null
+Sep 11, 2024 4:12:14 PM utils.BaseUtils logException
+SEVERE: Exception while clicking on the elementCannot invoke "org.openqa.selenium.WebElement.click()" because "element" is null
+Sep 11, 2024 4:15:01 PM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 11, 2024 4:18:38 PM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 13, 2024 10:28:19 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 9:44:58 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 9:46:08 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 11:19:03 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 11:22:56 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 11:33:04 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logException
+SEVERE: Exception in waitForVisible: Input must be set
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logException
+SEVERE: Exception while sending text to the elementCannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logStep
+INFO: Enter password
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logException
+SEVERE: Exception while sending text to the elementCannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logStep
+INFO: Click on the Login Button
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logException
+SEVERE: Exception while clicking on the elementCannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+Sep 16, 2024 11:35:05 AM utils.BaseUtils logStep
+INFO: Verify user is on home page
+Sep 16, 2024 11:41:02 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 16, 2024 11:41:02 AM utils.BaseUtils logStep
+INFO: Enter password
+Sep 16, 2024 11:41:02 AM utils.BaseUtils logStep
+INFO: Click on the Login Button
+Sep 16, 2024 11:41:02 AM utils.BaseUtils logStep
+INFO: Verify user is on home page
+Sep 18, 2024 11:04:53 AM utils.BaseUtils logException
+SEVERE: Exception in waitForElementToLoad: ${e.message}
+Sep 18, 2024 11:23:05 AM utils.BaseUtils logException
+SEVERE: Exception in waitForElementToLoad: ${e.message}
+Sep 18, 2024 11:23:46 AM utils.BaseUtils logException
+SEVERE: Exception in waitForElementToLoad: ${e.message}

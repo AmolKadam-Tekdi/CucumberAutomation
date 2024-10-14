@@ -1,0 +1,16 @@
+Sep 11, 2024 11:09:43 AM utils.BaseUtils logStep
+INFO: Enter Username
+Sep 11, 2024 11:09:43 AM utils.BaseUtils logStep
+INFO: ASSERTION: Username field is Enabled -- assertTrue(true)
+Sep 11, 2024 11:09:43 AM utils.BaseUtils logStep
+INFO: Enter Password
+Sep 11, 2024 11:09:43 AM utils.BaseUtils logStep
+INFO: ASSERTION: Password field is Enabled -- assertTrue(true)
+Sep 11, 2024 11:09:43 AM utils.BaseUtils logStep
+INFO: Click on LogIn Button
+Sep 11, 2024 11:09:43 AM utils.BaseUtils logStep
+INFO: ASSERTION: Login_Button is Enabled -- assertTrue(true)
+Sep 11, 2024 11:09:43 AM utils.BaseUtils logStep
+INFO: ASSERTION: Home Dashboard is displayed on the webpage -- assertTrue(false)
+Sep 11, 2024 11:09:43 AM utils.BaseUtils fail
+INFO: Home dashboard is not displayeed on the webpage

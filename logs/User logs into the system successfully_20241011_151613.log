@@ -1,0 +1,4 @@
+Oct 11, 2024 3:16:13 PM utils.BaseUtils logStep
+INFO: Scenario: User logs into the system successfully
+Oct 11, 2024 3:16:19 PM utils.BaseUtils logStep
+INFO: ASSERTION: User is successfully logged in the system -- assertEquals( Academic Year <--->  Academic Year)
