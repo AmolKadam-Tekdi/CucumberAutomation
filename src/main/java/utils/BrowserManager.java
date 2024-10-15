@@ -25,9 +25,11 @@ public class BrowserManager extends BaseUtils {
             environment = new String(encoded).trim();
         } catch (IOException e) {
             System.err.println("Error reading the environment file: " + e.getMessage());
-            throw new RuntimeException("Failed to read environment file", e);
+            System.out.println("Falling back to default environment: DEV");
+            environment = "DEV"; // Default to DEV if ENV file not found
         }
     }
+
 
     public static void browserRun() throws Exception {
         String browser = "chrome";
