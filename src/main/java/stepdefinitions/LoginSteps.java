@@ -3,9 +3,8 @@ package stepdefinitions;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import utils.BaseUtils;
-import utils.BrowserManager;
+import utils.baseutils.BrowserManager;
 
 public class LoginSteps extends BrowserManager {
 

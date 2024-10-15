@@ -2,7 +2,7 @@ package utils;//package utils.javautils;
 //
 //import org.testng.ITestResult;
 //import org.testng.annotations.*;
-//import utils.BrowserManager;
+//import utils.baseutils.BrowserManager;
 //
 //import java.lang.reflect.Method;
 //

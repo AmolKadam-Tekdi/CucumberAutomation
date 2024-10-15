@@ -78,7 +78,7 @@
       <module name="All_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="utils.baseutils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

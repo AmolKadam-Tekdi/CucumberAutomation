@@ -9,7 +9,7 @@ import utils.Reporter;
 import java.util.concurrent.TimeUnit;
 
 import static utils.BaseUtils.*;
-import static utils.BrowserManager.browserRun;
+import static utils.baseutils.BrowserManager.browserRun;
 
 
 public class Hookable {
