@@ -87,8 +87,9 @@ public class Hookable {
 	@After
 	public void tearDownScenario(Scenario scenario) throws Exception {
 		logResultStatus(scenario);  // Log the result of the scenario
+		driver.quit();
+
 		Reporter.flushReport();     // Flush the report after each scenario
-		driver.close();
 	}
 
 	@AfterClass

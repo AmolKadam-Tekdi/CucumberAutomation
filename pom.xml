@@ -355,11 +355,11 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.1.2</version>
-          <configuration>
+<!--          <configuration>
             <suiteXmlFiles>
               <suiteXmlFile>testng.xml</suiteXmlFile>
             </suiteXmlFiles>
-          </configuration>
+          </configuration>-->
 
         </plugin>
 
