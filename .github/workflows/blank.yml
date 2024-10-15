@@ -1,44 +1,4 @@
-## This is a basic workflow to help you get started with Actions
-#
-#name: CI
-#
-## Controls when the workflow will run
-#on:
-#  # Triggers the workflow on push or pull request events but only for the "main" branch
-#  push:
-#    branches: [ "main" ]
-#  pull_request:
-#    branches: [ "main" ]
-#
-#  # Allows you to run this workflow manually from the Actions tab
-#  workflow_dispatch:
-#
-## A workflow run is made up of one or more jobs that can run sequentially or in parallel
-#jobs:
-#  # This workflow contains a single job called "build"
-#  build:
-#    # The type of runner that the job will run on
-#    runs-on: ubuntu-latest
-#
-#    # Steps represent a sequence of tasks that will be executed as part of the job
-#    steps:
-#      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-#      - uses: actions/checkout@v4
-#
-#      # Runs a single command using the runners shell
-#      - name: Run a one-line script
-#        run: echo Hello, world!
-#
-#      # Runs a set of commands using the runners shell
-#      - name: Run a multi-line script
-#        run: |
-#          echo Add other actions to build,
-#          echo test, and deploy your project.
-
-#
-
-
-name: Cucumber Tests CI
+name: Cucumber-JUnit CI
 
 on:
   push:
@@ -77,30 +37,21 @@ jobs:
       - name: Install dependencies
         run: mvn install -DskipTests
 
-      # Step 5: Clean Temporary Reports Directory
-      - name: Clean Temp Reports Directory
-        run: |
-          if [ -d "/tmp/reports" ]; then
-            rm -rf /tmp/reports/*
-            echo "Old temporary reports cleaned."
-          else
-            mkdir -p /tmp/reports/cucumber
-            echo "Created temporary reports directories."
-          fi
+      # Step 5: Set up Chrome for headless testing
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
 
-      # Step 6: Run Cucumber tests and generate report
-      - name: Run Cucumber tests
-        run: |
-          mvn test
-          mvn site -DreportOutputDirectory=/tmp/reports/cucumber/
+      # Step 6: Run Cucumber tests
+      - name: Run Cucumber tests with JUnit
+        run: mvn test
 
-      # Step 7: Upload Cucumber reports as artifacts
-      - name: Upload Cucumber Report as Artifact
+      # Step 7: Upload Cucumber Reports
+      - name: Upload Cucumber Report
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: cucumber-report
-          path: /tmp/reports/cucumber/*.html
+          path: target/cucumber-reports.html
 
       # Step 8: Send email with Cucumber reports attached
       - name: Send email with Cucumber Reports
@@ -114,14 +65,14 @@ jobs:
           subject: "Cucumber Report - Build ${{ github.run_number }}: ${{ job.status }}"
           body: |
             Hello,
-            
-            The Cucumber Automation build ${{ github.run_number }} has completed with status: **${{ job.status }}**.
-            
+
+            The UI Automation build ${{ github.run_number }} has completed with status: **${{ job.status }}**.
+
             Please find the attached Cucumber Reports or view them at the deployed location.
-            
+
             Regards,
             CI System
           to: amol.kadam@tekditechnologies.com, another.email@example.com, third.email@example.com
-          from: CI System <cucumberautomationtest@gmail.com>
+          from: CI System <testngautomationtest@gmail.com>
           attachments: |
-            /tmp/reports/cucumber/*.html
+            target/cucumber-reports.html
