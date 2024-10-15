@@ -34,16 +34,25 @@ public class BrowserManager extends BaseUtils {
         switch (browser) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
-                ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--remote-allow-origins=*");
-                chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-logging"));
-                chromeOptions.setExperimentalOption("useAutomationExtension", false);
-                chromeOptions.addArguments("--disable-extensions");
-                chromeOptions.addArguments("--disable-infobars");
-                chromeOptions.addArguments("--disable-dev-shm-usage");
-                chromeOptions.addArguments("--no-sandbox");
-                chromeOptions.addArguments("--disable-gpu");
-                driver = new ChromeDriver(chromeOptions);
+                ChromeOptions options = new ChromeOptions();
+/*                options.addArguments("--remote-allow-origins=*");
+                options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-logging"));
+                options.setExperimentalOption("useAutomationExtension", false);
+                options.addArguments("--disable-extensions");
+                options.addArguments("--disable-infobars");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-gpu");*/
+
+                options.addArguments("--headless");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--window-size=1920x1080");
+                options.addArguments("--disable-extensions");
+                options.addArguments("--remote-allow-origins=*"); // To avoid CORS issues
+
+                driver = new ChromeDriver(options);
                 break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
