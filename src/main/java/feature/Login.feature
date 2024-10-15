@@ -6,4 +6,4 @@ Feature: Login functionality test
     When the user enters the username "tekdi_admin"
     And the user enters the password "4he!KY3#cIPE"
     And the user clicks on the login button
-    Then the user should see " Academic Year" on the home page
+    Then the user should see " Academic Year" on the home page.
