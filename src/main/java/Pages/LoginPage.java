@@ -3,8 +3,8 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utils.BaseUtils;
-import utils.PropertiesFileManager;
+import utils.BaseUtilities.BaseUtils;
+import utils.FileManagementUtilities.PropertiesFileManager;
 
 public class LoginPage extends BaseUtils {
 

@@ -1,0 +1,6 @@
+Oct 16, 2024 3:46:35 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
+Oct 16, 2024 3:46:35 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 16, 2024 3:46:35 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 

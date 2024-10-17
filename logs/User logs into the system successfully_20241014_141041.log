@@ -1,12 +1,12 @@
-Oct 14, 2024 2:10:41 PM utils.BaseUtils logStep
+Oct 14, 2024 2:10:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Scenario: User logs into the system successfully
-Oct 14, 2024 2:10:41 PM utils.BaseUtils logStep
+Oct 14, 2024 2:10:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user is on the login page
-Oct 14, 2024 2:10:41 PM utils.BaseUtils logStep
+Oct 14, 2024 2:10:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user enters the username 
-Oct 14, 2024 2:10:43 PM utils.BaseUtils logStep
+Oct 14, 2024 2:10:43 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user enters the password
-Oct 14, 2024 2:10:43 PM utils.BaseUtils logStep
+Oct 14, 2024 2:10:43 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user clicks on the login button
-Oct 14, 2024 2:10:43 PM utils.BaseUtils logStep
+Oct 14, 2024 2:10:43 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user selects academic year

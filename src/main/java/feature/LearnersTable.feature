@@ -11,11 +11,12 @@ Feature: Learners Table
     And User select "BIHAR" as State
     When the user clicks on the continue button
 
-    Scenario: When user clicks on the Learners button, systmes should display the learners table to the user
-      When User clicks on the Learners button
-      Then System should display the learner users table to the user
 
-      Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
-        When User clicks on the Learners button
-        When user clicks on the Veiw button for the first user
+  Scenario: When user clicks on the Learners button, systmes should display the learners table to the user
+    When User clicks on the Learners button
+    Then System should display the learner users table to the user
 
+  Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
+    When User clicks on the Learners button
+    When User clicks on the View Button for the first user
+    Then the system Display profile infornation

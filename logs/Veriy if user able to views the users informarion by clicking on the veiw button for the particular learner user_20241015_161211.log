@@ -1,0 +1,32 @@
+Oct 15, 2024 4:12:11 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
+Oct 15, 2024 4:12:11 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 15, 2024 4:12:11 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 
+Oct 15, 2024 4:12:15 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Username field is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 4:12:16 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the password
+Oct 15, 2024 4:12:16 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Password field is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 4:12:16 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the login button
+Oct 15, 2024 4:12:16 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Login Button is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 4:12:16 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user selects academic year
+Oct 15, 2024 4:12:25 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User selects State
+Oct 15, 2024 4:12:26 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the continue button
+Oct 15, 2024 4:12:26 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Continue Button is displayed on the home page -- assertTrue(true)
+Oct 15, 2024 4:12:26 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User clicks on the View Button for the first user
+Oct 15, 2024 4:12:37 PM utils.BaseUtilities.BaseUtils logStep
+INFO: View button is displayed on the table -- assertTrue(true)
+Oct 15, 2024 4:12:37 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the system Display profile infornation
+Oct 15, 2024 4:12:42 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Pritam22582Enrolled

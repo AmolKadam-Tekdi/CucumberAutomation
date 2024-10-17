@@ -1,22 +1,22 @@
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Enter Username
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Invalid locator: Username
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Username field is Enabled -- assertTrue(false)
-Sep 10, 2024 5:00:32 PM utils.BaseUtils fail
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils fail
 INFO: Username field is Disabled
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Enter Password
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Invalid locator: Password
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Password field is Enabled -- assertTrue(false)
-Sep 10, 2024 5:00:32 PM utils.BaseUtils fail
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils fail
 INFO: Username field is Password
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Click on LogIn Button
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logException
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logException
 SEVERE: Exception in isElementEnabled: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='National Urban Digital Mission']"}
   (Session info: chrome=128.0.6613.120)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
@@ -26,11 +26,11 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [d1f1d9120cf86c2f41c8092174a492d4, findElement {using=xpath, value=//*[text()='National Urban Digital Mission']}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56139/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: d1f1d9120cf86c2f41c8092174a492d4
-Sep 10, 2024 5:00:32 PM utils.BaseUtils logStep
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Login_Button is Enabled -- assertTrue(false)
-Sep 10, 2024 5:00:32 PM utils.BaseUtils fail
+Sep 10, 2024 5:00:32 PM utils.BaseUtilities.BaseUtils fail
 INFO: Login_Button is Disabled
-Sep 10, 2024 5:00:33 PM utils.BaseUtils logException
+Sep 10, 2024 5:00:33 PM utils.BaseUtilities.BaseUtils logException
 SEVERE: Exception in waitForVisible: class jdk.proxy2.$Proxy39 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy39 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')
-Sep 10, 2024 5:00:33 PM utils.BaseUtils fail
+Sep 10, 2024 5:00:33 PM utils.BaseUtilities.BaseUtils fail
 INFO: **** loginTest has FAILED ****

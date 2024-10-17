@@ -1,0 +1,36 @@
+Oct 15, 2024 3:21:38 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
+Oct 15, 2024 3:21:38 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 15, 2024 3:21:38 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 
+Oct 15, 2024 3:21:39 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Username field is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 3:21:40 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the password
+Oct 15, 2024 3:21:40 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Password field is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 3:21:41 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the login button
+Oct 15, 2024 3:21:41 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Login Button is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 3:21:41 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user selects academic year
+Oct 15, 2024 3:21:45 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User selects State
+Oct 15, 2024 3:21:45 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the continue button
+Oct 15, 2024 3:21:45 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Continue Button is displayed on the home page -- assertTrue(true)
+Oct 15, 2024 3:21:46 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User clicks on the View Button for the first user
+Oct 15, 2024 3:21:46 PM utils.BaseUtilities.BaseUtils logStep
+INFO: user clicks on the Veiw button for the first user
+Oct 15, 2024 3:21:56 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Number of matching elements: 4
+Oct 15, 2024 3:22:06 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Learners name : Pritam 
+Oct 15, 2024 3:22:16 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Learners Age : 23
+Oct 15, 2024 3:22:16 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the system Display profile infornation

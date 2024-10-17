@@ -1,18 +1,18 @@
-Sep 10, 2024 3:25:41 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Enter Username
-Sep 10, 2024 3:25:41 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Username field is Enabled -- assertTrue(true)
-Sep 10, 2024 3:25:41 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Enter Password
-Sep 10, 2024 3:25:41 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Password field is Enabled -- assertTrue(true)
-Sep 10, 2024 3:25:41 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Click on LogIn Button
-Sep 10, 2024 3:25:47 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:47 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Login_Button is Enabled -- assertTrue(true)
-Sep 10, 2024 3:25:53 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:53 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: 'National Urban Digital Mission' text is displayed on the Dashboard -- assertEquals(National Urban Digital Mission <---> National Urban Digital MissionNNNN)
-Sep 10, 2024 3:25:53 PM utils.BaseUtils logStep
+Sep 10, 2024 3:25:53 PM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Assertion Failed: 'National Urban Digital Mission' text is not displayed on the Dashboard expected [National Urban Digital MissionNNNN] but found [National Urban Digital Mission]
-Sep 10, 2024 3:25:53 PM utils.BaseUtils fail
+Sep 10, 2024 3:25:53 PM utils.BaseUtilities.BaseUtils fail
 INFO: **** loginTest has FAILED ****

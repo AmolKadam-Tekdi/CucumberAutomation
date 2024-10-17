@@ -1,0 +1,34 @@
+Oct 15, 2024 3:12:57 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
+Oct 15, 2024 3:12:57 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 15, 2024 3:12:57 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 
+Oct 15, 2024 3:12:59 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Username field is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 3:12:59 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the password
+Oct 15, 2024 3:12:59 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Password field is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 3:13:00 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the login button
+Oct 15, 2024 3:13:00 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Login Button is displayed on the login page -- assertTrue(true)
+Oct 15, 2024 3:13:00 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user selects academic year
+Oct 15, 2024 3:13:09 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User selects State
+Oct 15, 2024 3:13:10 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the continue button
+Oct 15, 2024 3:13:10 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Continue Button is displayed on the home page -- assertTrue(true)
+Oct 15, 2024 3:13:10 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User clicks on the View Button for the first user
+Oct 15, 2024 3:13:10 PM utils.BaseUtilities.BaseUtils logStep
+INFO: user clicks on the Veiw button for the first user
+Oct 15, 2024 3:13:20 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Number of matching elements: 4
+Oct 15, 2024 3:13:30 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Learners name : Pritam 
+Oct 15, 2024 3:13:30 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the system Display profile infornation

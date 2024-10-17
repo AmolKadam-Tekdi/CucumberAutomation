@@ -5,8 +5,164 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892bf9f-1e92-4f6f-af00-55759d55c3df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/feature/prerak.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/StepDefinitionUtilities/FeatureFileWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/BrowserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/failedtestcase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241011_151613.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241011_151613.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241011_153032.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241011_153032.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101445.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101445.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101458.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101458.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101555.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101555.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101630.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_101630.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_141041.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_141041.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_141227.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_141227.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_162421.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241014_162421.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_084502.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_084502.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_102306.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_102306.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_102401.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_102401.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_102604.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_102604.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_110037.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/User logs into the system successfully_20241015_110037.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user_20241014_141837.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user_20241014_141837.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user_20241014_150221.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user_20241014_150221.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_141708.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_141708.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_141827.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_141827.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_145318.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_145318.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_150242.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_150242.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_154632.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_154632.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_155439.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/When user clicks on the Learners button, systmes should display the learners table to the user_20241014_155439.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logfile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240731_111720.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240731_111720.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240731_112116.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240731_112116.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240731_112700.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240731_112700.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_145237.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_145237.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_150855.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_150855.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_152537.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_152537.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_152612.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_152612.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_162625.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_162625.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_162822.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_162822.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_162854.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_162854.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_163217.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_163217.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_170028.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_170028.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_170349.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_170349.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240910_171643.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240910_171643.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_100810.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_100810.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_102939.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_102939.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_103018.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_103018.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_103213.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_103213.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_105427.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_105427.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_110023.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_110023.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_110155.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_110155.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_110628.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_110628.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_110935.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_110935.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_112432.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_112432.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_112457.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_112457.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_112604.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_112604.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_112649.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_112649.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_112911.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_112911.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_113128.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_113128.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_125117.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_125117.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_125141.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_125141.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_125300.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_125300.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_125321.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_125321.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_125347.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_125347.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_125424.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_125424.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_125858.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_125858.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_130502.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_130502.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_130545.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_130545.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_131131.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_131131.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_131219.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_131219.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_131243.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_131243.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_135354.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_135354.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_135810.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_135810.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_135905.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_135905.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_140216.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_140216.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_140252.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_140252.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_140756.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_140756.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_140908.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_140908.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141011.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141011.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141052.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141052.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141157.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141157.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141301.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141301.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141410.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141410.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141506.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141506.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141757.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141757.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141903.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141903.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_141944.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_141944.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_142413.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_142413.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_142503.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_142503.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_145622.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_145622.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_145748.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_145748.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_145904.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_145904.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_151728.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_151728.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_151822.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_151822.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_151851.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_151851.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_152440.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_152440.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_152455.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_152455.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_152520.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_152520.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_152724.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_152724.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_155613.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_155613.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240911_155927.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240911_155927.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240916_113228.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240916_113228.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_210505.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_210505.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_210601.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_210601.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_214011.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_214011.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_214040.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_214040.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_214111.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_214111.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_214133.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_214133.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_221359.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_221359.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240917_221451.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240917_221451.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240918_102456.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240918_102456.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240918_110122.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240918_110122.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240918_110230.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240918_110230.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240918_110357.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240918_110357.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loginTest_20240918_112135.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loginTest_20240918_112135.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recorded_audio.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/EGLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/EGLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/feature/LearnersTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/feature/LearnersTable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefinitions/Hookable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepdefinitions/Hookable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefinitions/LearnersTableSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepdefinitions/LearnersTableSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepdefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefinitions/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/BaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/BaseUtilities/BaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ReportingUtilities/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JSONDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/FileManagementUtilities/JSONDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Log4j_LoggerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LoggingUtilities/Log4j_LoggerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LoggingUtilities/LoggerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PropertiesFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/FileManagementUtilities/PropertiesFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ReadExcelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/FileManagementUtilities/ReadExcelData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ReportingUtilities/Reporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StepDefinitionGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StepDefinitionUtilities/StepDefinitionGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TakeScreenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/baseutils/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/BrowserManagementUtilities/BrowserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/EGLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/EGLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/Hookable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepdefinitions/Hookable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/LearnersTableSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepdefinitions/LearnersTableSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepdefinitions/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/BaseUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/BaseUtils$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/BaseUtils$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/BaseUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReportManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/JSONDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Log4j_LoggerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/LoggerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertiesFileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReadExcelData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Reporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/StepDefinitionGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/TakeScreenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/baseutils/BrowserManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/Intranet/IntranetLogin_Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,33 +187,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LoginTest.executor": "Run",
-    "Application.StepDefinitionGenerator.executor": "Run",
-    "Application.stepdefinitions.LoginTest.executor": "Run",
-    "Cucumber Java.Feature: LearnersTable.executor": "Run",
-    "Cucumber Java.Feature: new.executor": "Run",
-    "Cucumber Java.Scenario: User logs into the system successfully (1).executor": "Run",
-    "Cucumber Java.Scenario: User logs into the system successfully.executor": "Run",
-    "Cucumber Java.Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user.executor": "Run",
-    "Cucumber Java.Scenario: When user clicks on the Learners button, systmes should display the learners table to the user.executor": "Run",
-    "Cucumber Java.Scenario: kjdsnfgjksdfgsj.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.LoginTest.loginTest (1).executor": "Run",
-    "TestNG.LoginTest.loginTest.executor": "Run",
-    "ToolWindowRun.ShowToolbar": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ttpl-rt-120/Downloads/Automation_Framework (6)/Automation_Framework (2)/Automation_Framework/src/main/java/utils",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "sonarlint"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FeatureFileWatcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StepDefinitionGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stepdefinitions.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: LearnersTable.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: new.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User logs into the system successfully (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User logs into the system successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: When user clicks on the Learners button, systmes should display the learners table to the user.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: kjdsnfgjksdfgsj.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: when user clicks on the Preraks button the system should display the Preraks information.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in All_Automation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.LoginTest.loginTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ttpl-rt-120/Downloads/Automation_Framework (6)/Automation_Framework (2)/Automation_Framework/src/main/java/utils&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ttpl-rt-120\Downloads\Automation_Framework (6)\Automation_Framework (2)\Automation_Framework\src\main\java\utils" />
@@ -72,32 +231,13 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User logs into the system successfully">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="StepDefinitionGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.StepDefinitionGenerator" />
+      <option name="MAIN_CLASS_NAME" value="utils.StepDefinitionUtilities.StepDefinitionGenerator" />
       <module name="All_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.baseutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: LearnersTable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/feature/LearnersTable.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="All_Automation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: LearnersTable" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="utils.BrowserManagementUtilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,15 +285,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: When user clicks on the Learners button, systmes should display the learners table to the user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: when user clicks on the Preraks button the system should display the Preraks information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/feature/LearnersTable.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/feature/prerak.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="All_Automation" />
-      <option name="NAME_FILTER" value="^When user clicks on the Learners button\, systmes should display the learners table to the user$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^When user clicks on the Learners button\, systmes should display the learners table to the user$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: When user clicks on the Learners button, systmes should display the learners table to the user" />
+      <option name="NAME_FILTER" value="^when user clicks on the Preraks button the system should display the Preraks information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^when user clicks on the Preraks button the system should display the Preraks information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: when user clicks on the Preraks button the system should display the Preraks information" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -165,13 +305,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="All_Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: User logs into the system successfully" />
-        <item itemvalue="Cucumber Java.Scenario: When user clicks on the Learners button, systmes should display the learners table to the user" />
+        <item itemvalue="Cucumber Java.Scenario: when user clicks on the Preraks button the system should display the Preraks information" />
         <item itemvalue="Application.StepDefinitionGenerator" />
         <item itemvalue="Cucumber Java.Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user" />
-        <item itemvalue="Cucumber Java.Feature: LearnersTable" />
       </list>
     </recent_temporary>
   </component>
@@ -196,5 +345,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/BrowserManagementUtilities/BrowserManager.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

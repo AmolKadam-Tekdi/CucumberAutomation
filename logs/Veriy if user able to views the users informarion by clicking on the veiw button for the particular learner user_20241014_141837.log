@@ -1,16 +1,16 @@
-Oct 14, 2024 2:18:37 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:37 PM utils.BaseUtilities.BaseUtils logStep
 INFO: Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
-Oct 14, 2024 2:18:37 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:37 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user is on the login page
-Oct 14, 2024 2:18:37 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:37 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user enters the username 
-Oct 14, 2024 2:18:38 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:38 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user enters the password
-Oct 14, 2024 2:18:39 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:39 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user clicks on the login button
-Oct 14, 2024 2:18:39 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:39 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user selects academic year
-Oct 14, 2024 2:18:41 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: User selects State
-Oct 14, 2024 2:18:41 PM utils.BaseUtils logStep
+Oct 14, 2024 2:18:41 PM utils.BaseUtilities.BaseUtils logStep
 INFO: the user clicks on the continue button

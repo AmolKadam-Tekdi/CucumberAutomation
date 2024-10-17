@@ -1,0 +1,32 @@
+Oct 16, 2024 5:38:04 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: when user clicks on the Preraks button the system should display the Preraks information
+Oct 16, 2024 5:38:04 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 16, 2024 5:38:04 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 
+Oct 16, 2024 5:38:05 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Username field is displayed on the login page -- assertTrue(true)
+Oct 16, 2024 5:38:05 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the password
+Oct 16, 2024 5:38:05 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Password field is displayed on the login page -- assertTrue(true)
+Oct 16, 2024 5:38:06 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the login button
+Oct 16, 2024 5:38:06 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Login Button is displayed on the login page -- assertTrue(true)
+Oct 16, 2024 5:38:06 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user selects academic year
+Oct 16, 2024 5:38:08 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User selects State
+Oct 16, 2024 5:38:08 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the continue button
+Oct 16, 2024 5:38:08 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Continue Button is displayed on the home page -- assertTrue(true)
+Oct 16, 2024 5:38:08 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the Preraks button
+Oct 16, 2024 5:38:08 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Prerak button is displayed to the user -- assertTrue(true)
+Oct 16, 2024 5:38:08 PM utils.BaseUtilities.BaseUtils logStep
+INFO: The system should display the Preraks page
+Oct 16, 2024 5:38:09 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Preraks Page is displayed to the user -- assertTrue(true)

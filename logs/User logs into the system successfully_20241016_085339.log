@@ -1,0 +1,18 @@
+Oct 16, 2024 8:53:39 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: User logs into the system successfully
+Oct 16, 2024 8:53:39 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 16, 2024 8:53:39 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 
+Oct 16, 2024 8:53:40 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Username field is displayed on the login page -- assertTrue(true)
+Oct 16, 2024 8:53:41 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the password
+Oct 16, 2024 8:53:41 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Password field is displayed on the login page -- assertTrue(true)
+Oct 16, 2024 8:53:41 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the login button
+Oct 16, 2024 8:53:41 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Login Button is displayed on the login page -- assertTrue(true)
+Oct 16, 2024 8:53:43 AM utils.BaseUtilities.BaseUtils logStep
+INFO: ASSERTION: User is successfully logged in the system -- assertEquals( Academic Year <--->  Academic Year)

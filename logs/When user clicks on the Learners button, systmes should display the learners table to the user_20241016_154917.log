@@ -1,0 +1,6 @@
+Oct 16, 2024 3:49:17 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: When user clicks on the Learners button, systmes should display the learners table to the user
+Oct 16, 2024 3:49:17 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 16, 2024 3:49:17 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 

@@ -1,0 +1,18 @@
+Oct 15, 2024 2:23:05 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: When user clicks on the Learners button, systmes should display the learners table to the user
+Oct 15, 2024 2:23:05 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 15, 2024 2:23:05 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 
+Oct 15, 2024 2:23:07 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the password
+Oct 15, 2024 2:23:07 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the login button
+Oct 15, 2024 2:23:08 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user selects academic year
+Oct 15, 2024 2:23:10 PM utils.BaseUtilities.BaseUtils logStep
+INFO: User selects State
+Oct 15, 2024 2:23:11 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the continue button
+Oct 15, 2024 2:23:13 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Learners table is displayed to the user -- assertTrue(true)

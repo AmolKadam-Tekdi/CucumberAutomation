@@ -1,4 +1,4 @@
-Sep 18, 2024 11:02:33 AM utils.BaseUtils logStep
+Sep 18, 2024 11:02:33 AM utils.BaseUtilities.BaseUtils logStep
 INFO: Enter Username
-Sep 18, 2024 11:02:33 AM utils.BaseUtils fail
+Sep 18, 2024 11:02:33 AM utils.BaseUtilities.BaseUtils fail
 INFO: **** loginTest has FAILED ****

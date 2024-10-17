@@ -1,22 +1,22 @@
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: Enter Username
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: Invalid locator: Username
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Username field is Enabled -- assertTrue(false)
-Sep 11, 2024 10:32:17 AM utils.BaseUtils fail
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils fail
 INFO: Username field is Disabled
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: Enter Password
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: Invalid locator: Password
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Password field is Enabled -- assertTrue(false)
-Sep 11, 2024 10:32:17 AM utils.BaseUtils fail
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils fail
 INFO: Username field is Password
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: Click on LogIn Button
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logException
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logException
 SEVERE: Exception in isElementEnabled: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='National Urban Digital Mission']"}
   (Session info: chrome=128.0.6613.120)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
@@ -26,11 +26,11 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [4df9348a5bea90216d43b23ee31f2d6a, findElement {using=xpath, value=//*[text()='National Urban Digital Mission']}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\TTPL-R~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50424/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 4df9348a5bea90216d43b23ee31f2d6a
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: ASSERTION: Login_Button is Enabled -- assertTrue(false)
-Sep 11, 2024 10:32:17 AM utils.BaseUtils fail
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils fail
 INFO: Login_Button is Disabled
-Sep 11, 2024 10:32:17 AM utils.BaseUtils logStep
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils logStep
 INFO: Invalid locator: FooterText
-Sep 11, 2024 10:32:17 AM utils.BaseUtils fail
+Sep 11, 2024 10:32:17 AM utils.BaseUtilities.BaseUtils fail
 INFO: **** loginTest has FAILED ****

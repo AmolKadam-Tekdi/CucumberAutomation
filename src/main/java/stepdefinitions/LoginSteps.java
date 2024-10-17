@@ -3,18 +3,18 @@ package stepdefinitions;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utils.BaseUtils;
-import utils.baseutils.BrowserManager;
+import utils.BaseUtilities.BaseUtils;
+import utils.BrowserManagementUtilities.BrowserManager;
 
 public class LoginSteps extends BrowserManager {
 
 	By usernameField = By.xpath("//*[@placeholder='Enter Username']");
 	By passwordField = By.xpath("//*[@placeholder='Enter Password']");
 	By loginButton = By.xpath("(//*[text()='Login'])[4]");
-	By AcademicYear = By.xpath("//*[text()='Academic Year']");
-	By Continue = By.xpath("//*[text()='Continue']");
-	By SelectAcademicYear = By.xpath("(//*[@aria-label='Select'])[1]");
-	By SelectState = By.xpath("(//*[@aria-label='Select'])[2]");
+	By academicYear = By.xpath("//*[text()='Academic Year']");
+	By continueButton = By.xpath("//*[text()='Continue']");
+	By selectAcademicYear = By.xpath("(//*[@aria-label='Select'])[1]");
+	By selectState = By.xpath("(//*[@aria-label='Select'])[2]");
 
 
 
@@ -28,6 +28,8 @@ public class LoginSteps extends BrowserManager {
 	public void the_user_enters_the_username_string_(String inputString) {
 		logStep("the user enters the username ");
 		WebElement usernamefield = BaseUtils.driver.findElement(usernameField);
+
+		assertTrue("Username field is displayed on the login page",isElementDisplayed(usernamefield),"Username field is not displayed on the login page");
 		sendTextOnUI( usernamefield,inputString);
 	}
 
@@ -35,6 +37,7 @@ public class LoginSteps extends BrowserManager {
 	public void the_user_enters_the_password_string_(String inputString) {
 		logStep("the user enters the password");
 		WebElement passwordfield = BaseUtils.driver.findElement(passwordField);
+		assertTrue("Password field is displayed on the login page",isElementDisplayed(passwordfield),"Password field is not displayed on the login page");
 		sendTextOnUI( passwordfield,inputString);
 	}
 
@@ -42,35 +45,41 @@ public class LoginSteps extends BrowserManager {
 	public void the_user_clicks_on_the_login_button() {
 		logStep("the user clicks on the login button");
 		WebElement loginbutton = BaseUtils.driver.findElement(loginButton);
+		assertTrue("Login Button is displayed on the login page",isElementDisplayed(loginbutton),"Login Button is not displayed on the login page");
+
 		click(loginbutton);
 	}
 
-/*	@Then("the user should see {string} on the home page")
-	public void user_sees_academic_year(String expectedText) throws Exception {
-		WebElement academicYear = BaseUtils.driver.findElement(AcademicYear);
-
-		String AcademicYeartext = academicYear.getText();
-		assertEquals("User is successfully logged in the system",AcademicYeartext," Academic Year","User log in failed");
-
-	}*/
 
 	@Then("the user should see {string} on the home page")
 	public void the_user_should_see_string_on_the_home_page(String inputString) {
 
-		WebElement academicYear = BaseUtils.driver.findElement(AcademicYear);
+		WebElement academicYear = BaseUtils.driver.findElement(this.academicYear);
 
 		String AcademicYeartext = academicYear.getText();
 		assertEquals("User is successfully logged in the system",AcademicYeartext," Academic Year","User log in failed");
 
 	}
+
 
 
 	@When("the user clicks on the continue button")
 	public void the_user_clicks_on_the_continue_button() {
 		logStep("the user clicks on the continue button");
-		WebElement continu = BaseUtils.driver.findElement(Continue);
+		WebElement continu = BaseUtils.driver.findElement(continueButton);
+		assertTrue("Continue Button is displayed on the home page",isElementDisplayed(continu),"Continue Button is not displayed on the home page");
+
 		click(continu);
 	}
+
+
+	@When("A user enters the username {string}")
+	public void a_user_enters_the_username_string_(String inputString) {
+		logStep("A user enters the username " + inputString + "");
+		// TODO: Implement step
+		throw new io.cucumber.java.PendingException();
+	}
+
 
 
 }

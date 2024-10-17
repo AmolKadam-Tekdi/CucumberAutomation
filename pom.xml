@@ -17,8 +17,6 @@
     <lombok.version>1.18.26</lombok.version>
     <maven.compiler.version>3.11.0</maven.compiler.version>
     <selenium.version>4.11.0</selenium.version>
-    <testng.version>7.8.0</testng.version>
-<!--    <webdrivermanager.version>5.4.1</webdrivermanager.version>-->
     <allure.version>2.23.0</allure.version>
     <slf4j.version>2.0.7</slf4j.version>
     <log4j.version>3.0.0-alpha1</log4j.version>
@@ -26,30 +24,23 @@
     <poi-ooxml.version>5.2.3</poi-ooxml.version>
     <poi-ooxml-schemas.version>4.1.2</poi-ooxml-schemas.version>
     <extentreports.version>5.0.9</extentreports.version>
-    <json.version>20230618</json.version>
+    <json.version>20231013</json.version>
   </properties>
 
+
   <dependencies>
-
-
-
-    <!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-texttospeech -->
-    <!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-texttospeech -->
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-texttospeech</artifactId>
       <version>2.47.0</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/net.sf.sociaal/freetts -->
     <dependency>
       <groupId>net.sf.sociaal</groupId>
       <artifactId>freetts</artifactId>
       <version>1.2.2</version>
     </dependency>
 
-
-    <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
@@ -68,13 +59,13 @@
       <artifactId>google-api-client</artifactId>
       <version>1.33.0</version>
     </dependency>
+
     <dependency>
       <groupId>com.google.oauth-client</groupId>
       <artifactId>google-oauth-client-jetty</artifactId>
       <version>1.33.1</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-drive -->
     <dependency>
       <groupId>com.google.apis</groupId>
       <artifactId>google-api-services-drive</artifactId>
@@ -82,105 +73,67 @@
     </dependency>
 
 
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>${selenium.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>${testng.version}</version>
-      <scope>compile</scope>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/clojure-interop/javax.sound -->
-    <!-- https://mvnrepository.com/artifact/clojure-interop/javax.sound -->
 
 
 
-
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
-<!--    <dependency>-->
-<!--      <groupId>org.seleniumhq.selenium</groupId>-->
-<!--      <artifactId>selenium-remote-driver</artifactId>-->
-<!--      <version>${selenium.version}</version>-->
-<!--    </dependency>-->
-<!--    &lt;!&ndash; https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager &ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>io.github.bonigarcia</groupId>-->
-<!--      <artifactId>webdrivermanager</artifactId>-->
-<!--      <version>${webdrivermanager.version}</version>-->
-<!--    </dependency>-->
-
-
-
-    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-java-commons</artifactId>
       <version>${allure.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>${slf4j.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
       <version>${log4j.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-chrome-driver</artifactId>
       <version>${selenium.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>${guava.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml</artifactId>
       <version>${poi-ooxml.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml-schemas</artifactId>
       <version>${poi-ooxml-schemas.version}</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
       <version>5.9.2</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
     <dependency>
       <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
       <version>${extentreports.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-firefox-driver</artifactId>
-      <version>${selenium.version}</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-texttospeech -->
 
     <!-- https://mvnrepository.com/artifact/org.json/json -->
     <dependency>
@@ -258,11 +211,7 @@
       <artifactId>junit</artifactId>
       <version>4.13.1</version>
     </dependency>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.7.0</version>
-    </dependency>
+
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-firefox-driver</artifactId>
@@ -348,18 +297,10 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.3.1</version>
         </plugin>
-<!--        <plugin>-->
-<!--          <artifactId>maven-compiler-plugin</artifactId>-->
-<!--          <version>3.11.0</version>-->
-<!--        </plugin>-->
+
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.1.2</version>
-<!--          <configuration>
-            <suiteXmlFiles>
-              <suiteXmlFile>testng.xml</suiteXmlFile>
-            </suiteXmlFiles>
-          </configuration>-->
 
         </plugin>
 

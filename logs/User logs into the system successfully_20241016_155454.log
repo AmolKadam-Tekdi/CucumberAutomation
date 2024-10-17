@@ -1,0 +1,6 @@
+Oct 16, 2024 3:54:54 PM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: User logs into the system successfully
+Oct 16, 2024 3:54:54 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 16, 2024 3:54:54 PM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username 
