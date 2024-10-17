@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9892bf9f-1e92-4f6f-af00-55759d55c3df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/blank.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/blank.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/BrowserManagerUtilities/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/BrowserManagerUtilities/BrowserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ReportingUtilities/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ReportingUtilities/Reporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StepDefinitionUtilities/StepDefinitionGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StepDefinitionUtilities/StepDefinitionGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hookable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hookable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/Hookable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/LearnersTableSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/LoginSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/prerakSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/BrowserManagementUtilities/BrowserManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReportingUtilities/Reporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ReportingUtilities/Reporter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/StepDefinitionUtilities/StepDefinitionGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/StepDefinitionUtilities/StepDefinitionGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.html" afterDir="false" />
-    </list>
+    <list default="true" id="9892bf9f-1e92-4f6f-af00-55759d55c3df" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

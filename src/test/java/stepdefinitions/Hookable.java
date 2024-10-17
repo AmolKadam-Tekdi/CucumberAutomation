@@ -16,6 +16,8 @@ public class Hookable extends BrowserManager{
 
 	private static boolean isSuiteInitialized = false;
 	private static String featureName = "";
+	private static String featureNames = "";
+
 
 	@Before(order = 1)
 	public void setUp(Scenario scenario) throws Exception {
