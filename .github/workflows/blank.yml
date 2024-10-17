@@ -85,8 +85,6 @@ jobs:
 
             Please find the attached Cucumber Extent Reports or view them at the deployed location.
 
-            Regards,
-            CI System
           to: amol.kadam@tekditechnologies.com, another.email@example.com, third.email@example.com
           from: CI System <testngautomationtest@gmail.com>
           attachments: |
