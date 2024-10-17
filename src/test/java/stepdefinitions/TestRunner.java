@@ -5,8 +5,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/main/java/feature",   // Path to your feature files
-        glue = {"stepdefinitions"},                // Package containing step definitions
+        features = "src/test/java/feature/",   // Path to your feature files
+        glue = {"stepdefinitions/"},                // Package containing step definitions
         plugin = {"pretty", "html:target/cucumber-reports.html"}, // Generates HTML report
         monochrome = true                          // Makes console output more readable
 )
