@@ -16,7 +16,7 @@ public class Hookable extends BrowserManager{
 
 	private static boolean isSuiteInitialized = false;
 	private static String featureName = "";
-	private static String featureNames = "bdjf";
+	private static String featureNames = "";
 
 
 	@Before(order = 1)
