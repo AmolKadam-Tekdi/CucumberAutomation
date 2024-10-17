@@ -1,0 +1,38 @@
+Oct 17, 2024 11:55:38 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Scenario: Veriy if user able to views the users informarion by clicking on the veiw button for the particular learner user
+Oct 17, 2024 11:55:38 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user is on the login page
+Oct 17, 2024 11:55:38 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the username tekdi_admin
+Oct 17, 2024 11:55:39 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Username field is displayed on the login page -- assertTrue(true)
+Oct 17, 2024 11:55:40 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user enters the password 4he!KY3#cIPE
+Oct 17, 2024 11:55:40 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Password field is displayed on the login page -- assertTrue(true)
+Oct 17, 2024 11:55:40 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the login button
+Oct 17, 2024 11:55:40 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Login Button is displayed on the login page -- assertTrue(true)
+Oct 17, 2024 11:55:40 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user selects April24-Oct-25(Bihar) as academic year
+Oct 17, 2024 11:55:43 AM utils.BaseUtilities.BaseUtils logStep
+INFO: User select BIHAR as State
+Oct 17, 2024 11:55:43 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the user clicks on the continue button
+Oct 17, 2024 11:55:43 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Continue Button is displayed on the home page -- assertTrue(true)
+Oct 17, 2024 11:55:43 AM utils.BaseUtilities.BaseUtils logStep
+INFO: User clicks on the Learners button
+Oct 17, 2024 11:55:43 AM utils.BaseUtilities.BaseUtils logStep
+INFO: User clicks on the View Button for the first user
+Oct 17, 2024 11:55:54 AM utils.BaseUtilities.BaseUtils logStep
+INFO: View button is displayed on the table -- assertTrue(true)
+Oct 17, 2024 11:55:54 AM utils.BaseUtilities.BaseUtils logStep
+INFO: the system Display profile infornation
+Oct 17, 2024 11:55:56 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Pritam22582Enrolled
+Oct 17, 2024 11:55:56 AM utils.BaseUtilities.BaseUtils logStep
+INFO: ASSERTION: Learners name on the benificiary page is same as on the learners table -- assertEquals(Pritam  <---> Pritam)
+Oct 17, 2024 11:55:56 AM utils.BaseUtilities.BaseUtils logStep
+INFO: Assertion Failed: Learners name on the benificiary page is not same as on the learners table expected [Pritam] but found [Pritam ]

@@ -3,16 +3,16 @@ package stepdefinitions;
 import com.aventstack.extentreports.ExtentReports;
 import io.cucumber.java.*;
 import org.junit.AfterClass;
+import utils.BrowserManagerUtilities.BrowserManager;
 import utils.LoggingUtilities.LoggerUtil;
 import utils.ReportingUtilities.Reporter;
 
 import java.util.concurrent.TimeUnit;
 
 import static utils.BaseUtilities.BaseUtils.*;
-import static utils.BrowserManagementUtilities.BrowserManager.browserRun;
 
 
-public class Hookable {
+public class Hookable extends BrowserManager{
 
 	private static boolean isSuiteInitialized = false;
 	private static String featureName = "";
@@ -30,7 +30,7 @@ public class Hookable {
 			isSuiteInitialized = true;
 		}
 
-		browserRun();
+		BrowserManager.browserRun();
 		LoggerUtil.setLogFileName(scenario.getName());
 		Reporter.createTest(scenario.getName());  // Create a new test for each scenario
 		logStep("Scenario: " + scenario.getName());

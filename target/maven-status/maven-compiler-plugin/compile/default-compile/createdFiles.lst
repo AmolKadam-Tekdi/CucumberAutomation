@@ -1,0 +1,15 @@
+utils\FileManagementUtilities\JSONDataProvider.class
+utils\FileManagementUtilities\ReadExcelData.class
+utils\LoggingUtilities\LoggerUtil.class
+utils\ReportingUtilities\Reporter.class
+utils\LoggingUtilities\Log4j_LoggerUtil.class
+Pages\EGLoginPage.class
+utils\BaseUtilities\BaseUtils$3.class
+utils\StepDefinitionUtilities\StepDefinitionGenerator.class
+utils\StepDefinitionUtilities\FeatureFileWatcher.class
+utils\FileManagementUtilities\PropertiesFileManager.class
+utils\BaseUtilities\BaseUtils$2.class
+utils\ReportingUtilities\ExtentReportManager.class
+Pages\LoginPage.class
+utils\BaseUtilities\BaseUtils$1.class
+utils\BaseUtilities\BaseUtils.class

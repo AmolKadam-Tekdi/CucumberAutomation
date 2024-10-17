@@ -264,8 +264,8 @@ import java.util.zip.ZipOutputStream;
 public class StepDefinitionGenerator {
 
     public static void main(String[] args) {
-        String featureDirectoryPath = "src/main/java/feature/"; // Path where all feature files are located
-        String stepDefinitionDirectory = "src/main/java/stepdefinitions/"; // Directory for step definitions
+        String featureDirectoryPath = "src/test/resources/feature/"; // Path where all feature files are located
+        String stepDefinitionDirectory = "src/test/java/stepdefinitions/"; // Directory for step definitions
         String backupDirectoryPath = "src/Backup/"; // Directory for backups
 
         try {
@@ -321,7 +321,9 @@ public class StepDefinitionGenerator {
             try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(stepDefinitionFilePath))) {
                 writer.write("package stepdefinitions;\n\n");
                 writer.write("import io.cucumber.java.en.*;\n\n");
-                writer.write("public class " + featureFileName + "Steps {\n");
+                writer.write("import utils.BrowserManagerUtilities.BrowserManager;;\n\n");
+
+                writer.write("public class " + featureFileName + "Steps extends BrowserManager{\n");
 
                 for (String line : featureLines) {
                     String methodStub = generateMethodStub(line, existingMethods);

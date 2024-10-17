@@ -37,24 +37,39 @@ jobs:
       - name: Install dependencies
         run: mvn install -DskipTests
 
-      # Step 5: Set up Chrome for headless testing
+      # Step 5: Clean Temporary Reports Directory
+      - name: Clean Temp Reports Directory
+        run: |
+          if [ -d "/tmp/reports" ]; then
+            rm -rf /tmp/reports/*
+            echo "Old temporary reports cleaned."
+          else
+            mkdir -p /tmp/reports/cucumber
+            echo "Created temporary cucumber reports directory."
+          fi
+
+      # Step 6: Set up Chrome for headless testing
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
 
-      # Step 6: Run Cucumber tests
+      # Step 7: Run Cucumber tests
       - name: Run Cucumber tests with JUnit
         run: mvn test
 
-      # Step 7: Upload Cucumber Reports
-      - name: Upload Cucumber Report
+      # Step 8: Generate Extent Reports
+      - name: Generate Extent Reports
+        run: mvn site -DreportOutputDirectory=/tmp/reports/cucumber/
+
+      # Step 9: Upload Extent Reports as artifacts
+      - name: Upload Extent Report
         if: always()
         uses: actions/upload-artifact@v3
         with:
-          name: cucumber-report
-          path: target/cucumber-reports.html
+          name: cucumber-extent-report
+          path: /tmp/reports/cucumber/*.html
 
-      # Step 8: Send email with Cucumber reports attached
-      - name: Send email with Cucumber Reports
+      # Step 10: Send email with Extent Reports attached
+      - name: Send email with Extent Reports
         if: always()  # Ensure this step runs whether the build succeeds or fails
         uses: dawidd6/action-send-mail@v3
         with:
@@ -62,17 +77,17 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "Cucumber Report - Build ${{ github.run_number }}: ${{ job.status }}"
+          subject: "Cucumber Extent Report - Build ${{ github.run_number }}: ${{ job.status }}"
           body: |
             Hello,
 
             The UI Automation build ${{ github.run_number }} has completed with status: **${{ job.status }}**.
 
-            Please find the attached Cucumber Reports or view them at the deployed location.
+            Please find the attached Cucumber Extent Reports or view them at the deployed location.
 
             Regards,
             CI System
           to: amol.kadam@tekditechnologies.com, another.email@example.com, third.email@example.com
           from: CI System <testngautomationtest@gmail.com>
           attachments: |
-            target/cucumber-reports.html
+            /tmp/reports/cucumber/*.html

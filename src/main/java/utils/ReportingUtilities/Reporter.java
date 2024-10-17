@@ -20,6 +20,7 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.Base64;
 import java.util.Date;
+import java.util.TimeZone;
 
 /**
  *
@@ -35,25 +36,6 @@ public class Reporter {
 	private static ExtentTest test;
 	static String timestamp = new SimpleDateFormat("ddMMyyyy_HHmmss").format(new Date());
 
-	public static void setupReport(String filename) {
-		filename = filename + "_" + timestamp;
-
-		String parentDirectory = System.getProperty("user.dir") + File.separator + "reports"
-				+ File.separator;
-
-		createDirectory(parentDirectory);
-
-		ExtentSparkReporter report = new ExtentSparkReporter(
-				parentDirectory + File.separator + timestamp + File.separator + filename + ".html");
-		report.config().setTheme(Theme.STANDARD);
-		extent = new ExtentReports();
-
-		extent.attachReporter(report);
-	}
-
-
-
-
 /*
 	public static void setupReport(String filename) {
 		filename = filename + "_" + timestamp;
@@ -67,12 +49,31 @@ public class Reporter {
 				parentDirectory + File.separator + timestamp + File.separator + filename + ".html");
 		report.config().setTheme(Theme.STANDARD);
 		extent = new ExtentReports();
+
 		extent.attachReporter(report);
 	}
 */
 
 
-/*	public static void setupReport(String suiteName) {
+
+
+/*	public static void setupReport(String filename) {
+		filename = filename + "_" + timestamp;
+
+		String parentDirectory = System.getProperty("user.dir") + File.separator + "reports"
+				+ File.separator;
+
+		createDirectory(parentDirectory);
+
+		ExtentSparkReporter report = new ExtentSparkReporter(
+				parentDirectory + File.separator + timestamp + File.separator + filename + ".html");
+		report.config().setTheme(Theme.STANDARD);
+		extent = new ExtentReports();
+		extent.attachReporter(report);
+	}*/
+
+
+	public static void setupReport(String suiteName) {
 		logStep("Reports are now getting generated");
 		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Kolkata"));
 
@@ -86,7 +87,7 @@ public class Reporter {
 		report.config().setTheme(Theme.STANDARD);
 
 		extent.attachReporter(report);
-	}*/
+	}
 
 
 	public static void createTest(String testName) {

@@ -1,4 +1,4 @@
-package utils.BrowserManagementUtilities;
+package utils.BrowserManagerUtilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
